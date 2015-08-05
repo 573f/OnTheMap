@@ -10,6 +10,7 @@
 		1726B8441B70DE930065DF99 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1726B8411B70DE930065DF99 /* Roboto-Medium.ttf */; };
 		1726B8451B70DE930065DF99 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1726B8421B70DE930065DF99 /* Roboto-Regular.ttf */; };
 		1726B8461B70DE930065DF99 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1726B8431B70DE930065DF99 /* Roboto-Thin.ttf */; };
+		1726B84A1B727E300065DF99 /* SSPWebClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1726B8491B727E300065DF99 /* SSPWebClient.swift */; };
 		690F9FA01B50212D00EAC7CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F9F9F1B50212D00EAC7CE /* AppDelegate.swift */; };
 		690F9FA21B50212D00EAC7CE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F9FA11B50212D00EAC7CE /* LoginViewController.swift */; };
 		690F9FA51B50212D00EAC7CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690F9FA31B50212D00EAC7CE /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		1726B8411B70DE930065DF99 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		1726B8421B70DE930065DF99 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		1726B8431B70DE930065DF99 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		1726B8491B727E300065DF99 /* SSPWebClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSPWebClient.swift; sourceTree = "<group>"; };
 		690F9F9A1B50212D00EAC7CE /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		690F9F9E1B50212D00EAC7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690F9F9F1B50212D00EAC7CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,22 @@
 			name = Fonts;
 			sourceTree = "<group>";
 		};
+		1726B8471B727AB40065DF99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				690F9FA11B50212D00EAC7CE /* LoginViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1726B8481B727E120065DF99 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				1726B8491B727E300065DF99 /* SSPWebClient.swift */,
+			);
+			name = Clients;
+			sourceTree = "<group>";
+		};
 		690F9F911B50212D00EAC7CE = {
 			isa = PBXGroup;
 			children = (
@@ -93,9 +111,10 @@
 		690F9F9C1B50212D00EAC7CE /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
+				1726B8481B727E120065DF99 /* Clients */,
+				1726B8471B727AB40065DF99 /* Controllers */,
 				1726B8401B70DE6E0065DF99 /* Fonts */,
 				690F9F9F1B50212D00EAC7CE /* AppDelegate.swift */,
-				690F9FA11B50212D00EAC7CE /* LoginViewController.swift */,
 				690F9FA31B50212D00EAC7CE /* Main.storyboard */,
 				690F9FA61B50212D00EAC7CE /* Images.xcassets */,
 				690F9FA81B50212D00EAC7CE /* LaunchScreen.xib */,
@@ -234,6 +253,7 @@
 			files = (
 				690F9FA21B50212D00EAC7CE /* LoginViewController.swift in Sources */,
 				690F9FA01B50212D00EAC7CE /* AppDelegate.swift in Sources */,
+				1726B84A1B727E300065DF99 /* SSPWebClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

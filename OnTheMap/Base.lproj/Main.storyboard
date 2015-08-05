@@ -77,7 +77,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="doLogin:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="j3s-iJ-U2J"/>
+                                    <action selector="loginUdacityUser:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="AUE-vw-V4E"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZb-4p-oVL">
@@ -87,6 +87,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerUdacityAccount:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="S5K-79-YzZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.49803921569999998" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,7 +123,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="doRegisterForUdacityAccount" destination="rZb-4p-oVL" id="Trb-1p-tCU"/>
                         <outlet property="errorTextField" destination="YDS-4G-eX8" id="eSp-6t-NSi"/>
                         <outlet property="passwordTextField" destination="XdH-R9-cNu" id="dbo-Gn-8Ho"/>
                         <outlet property="usernameTextField" destination="VVv-6m-TxP" id="ckJ-nP-oXJ"/>

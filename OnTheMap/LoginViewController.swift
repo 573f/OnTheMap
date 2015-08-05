@@ -24,9 +24,10 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func doLogin(sender: AnyObject) {
+    @IBAction func loginUdacityUser(sender: AnyObject) {
     }
 
-    @IBOutlet weak var doRegisterForUdacityAccount: UIButton!
+    @IBAction func registerUdacityAccount(sender: AnyObject) {
+    }
 }
 
