@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00356A38CE8B8015DD186A9E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481609103D903539B648FBC2 /* Alamofire.swift */; };
-		1A0F50EEDD1F3A72ABACF72E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC9823B66B90F07F380579 /* Foundation.framework */; };
 		1A24C8B19795C2BCFCFD345B /* Pods-OnTheMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D69426145F15D895ADAE1066 /* Pods-OnTheMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37A4FBB388BA33340F6A1B1F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09B0EF9C5E2CEBE602FD9F2 /* Validation.swift */; };
 		3B0B38422350C8C6A8558AB3 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DDA25DDEBD42F96FEAE42 /* ServerTrustPolicy.swift */; };
 		54C205A254F8BADC73137DBD /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41F2634A35153EE98DFED68 /* Manager.swift */; };
+		69B5639D1B73C3C400C2002B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B5639C1B73C3C400C2002B /* Foundation.framework */; };
 		81FEE66B151C953BEF282F25 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6675724D058CCCBD247AB546 /* ParameterEncoding.swift */; };
 		82DD9AE0142DEF32263BE378 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793A712BE0C9904450F9F0DA /* ResponseSerialization.swift */; };
 		86762D64632ACFFCDD49E94B /* Pods-OnTheMap-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F705FE0DEE0B6637B5EE98B /* Pods-OnTheMap-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,7 +22,6 @@
 		B9EFC9D805C1FCAA8057BB25 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D675DFDCE864A2E397641430 /* MultipartFormData.swift */; };
 		BCA512ADA9DA9CD64A0CFB98 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F50EC321725D1665C9FC7A /* Request.swift */; };
 		EAC97FF06057931BB89EA5E0 /* Pods-OnTheMap-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF11A72FFCB507B719E443C /* Pods-OnTheMap-Alamofire-dummy.m */; };
-		F67439655D26EE697DF1EB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8FC9823B66B90F07F380579 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,13 +46,13 @@
 		5B4968859A69818CDECD413E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		61E900CF212330011457E4BC /* Pods-OnTheMap-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OnTheMap-frameworks.sh"; sourceTree = "<group>"; };
 		6675724D058CCCBD247AB546 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		69B5639C1B73C3C400C2002B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		793A712BE0C9904450F9F0DA /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		7AF7DD4BCFAFEFFD8A53C6EA /* Pods-OnTheMap-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OnTheMap-acknowledgements.plist"; sourceTree = "<group>"; };
 		8600228B23CE86640469D46A /* Pods-OnTheMap-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OnTheMap-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
 		8F705FE0DEE0B6637B5EE98B /* Pods-OnTheMap-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnTheMap-Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		A3D1369C5C91AE41B40D88E3 /* Pods-OnTheMap-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OnTheMap-environment.h"; sourceTree = "<group>"; };
 		A41F2634A35153EE98DFED68 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
-		A8FC9823B66B90F07F380579 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		B4B88A64997A880B3F0139F8 /* Pods-OnTheMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OnTheMap.modulemap"; sourceTree = "<group>"; };
 		B8CE55A545147960B98C1888 /* Pods_OnTheMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnTheMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05FA8F8C5F28B7A5E69EA39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0F50EEDD1F3A72ABACF72E /* Foundation.framework in Frameworks */,
+				69B5639D1B73C3C400C2002B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67439655D26EE697DF1EB08 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +91,7 @@
 		04977BA9822CA951BF6D6B95 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A8FC9823B66B90F07F380579 /* Foundation.framework */,
+				69B5639C1B73C3C400C2002B /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -329,7 +327,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-OnTheMap/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-OnTheMap/Pods-OnTheMap.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -486,7 +484,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-OnTheMap/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-OnTheMap/Pods-OnTheMap.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;

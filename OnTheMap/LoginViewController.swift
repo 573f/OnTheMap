@@ -9,14 +9,17 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    private var udacityClient: UdacityClient!
 
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var errorTextField: UILabel!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        udacityClient = UdacityClient()
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,9 +28,11 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func loginUdacityUser(sender: AnyObject) {
+        udacityClient.login(self.usernameTextField.text, password: self.passwordTextField.text)
     }
 
     @IBAction func registerUdacityAccount(sender: AnyObject) {
+        println("We should launch the Udacity registration url here for Safari to handle.")
     }
 }
 
