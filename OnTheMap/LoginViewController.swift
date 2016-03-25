@@ -28,11 +28,11 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func loginUdacityUser(sender: AnyObject) {
-        udacityClient.login(self.usernameTextField.text, password: self.passwordTextField.text)
+        udacityClient.login(self.usernameTextField.text!, password: self.passwordTextField.text!)
     }
 
     @IBAction func registerUdacityAccount(sender: AnyObject) {
-        println("We should launch the Udacity registration url here for Safari to handle.")
+        print("We should launch the Udacity registration url here for Safari to handle.")
     }
 }
 
